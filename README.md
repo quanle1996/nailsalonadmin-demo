@@ -1,6 +1,7 @@
 # nailsalonadmin-demo
 
-**Install PostgreSQL** WSL (ie. Ubuntu):
+##**Install PostgreSQL**
+WSL (ie. Ubuntu):
 Open your WSL terminal (ie. Ubuntu).
 Update your Ubuntu packages:
 ```sudo apt update```
