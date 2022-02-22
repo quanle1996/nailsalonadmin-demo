@@ -18,22 +18,27 @@
       "minLength": 3,
       "unique": true,
       "configurable": false,
-      "required": true
+      "required": false
+    },
+    "phone": {
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "email": {
       "type": "email",
       "minLength": 6,
-      "configurable": false,
-      "required": true
+      "configurable": true,
+      "required": false
     },
     "provider": {
       "type": "string",
-      "configurable": false
+      "configurable": true
     },
     "password": {
       "type": "password",
       "minLength": 6,
-      "configurable": false,
+      "configurable": true,
       "private": true
     },
     "resetPasswordToken": {
@@ -62,11 +67,6 @@
       "target": "plugin::users-permissions.role",
       "inversedBy": "users",
       "configurable": false
-    },
-    "phone": {
-      "type": "string",
-      "required": true,
-      "unique": true
     }
   }
 }
