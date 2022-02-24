@@ -15,9 +15,6 @@
     "date": {
       "type": "date"
     },
-    "time": {
-      "type": "time"
-    },
     "customer": {
       "type": "relation",
       "relation": "oneToOne",
@@ -30,6 +27,9 @@
     },
     "services": {
       "type": "json"
+    },
+    "time": {
+      "type": "string"
     }
   }
 }
