@@ -23,15 +23,13 @@
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
     },
-    "services": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::service.service"
-    },
     "staff": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
+    },
+    "services": {
+      "type": "json"
     }
   }
 }
