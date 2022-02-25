@@ -26,6 +26,15 @@
     },
     "staff": {
       "type": "integer"
+    },
+    "checkin": {
+      "type": "datetime"
+    },
+    "checkout": {
+      "type": "datetime"
+    },
+    "point": {
+      "type": "float"
     }
   }
 }
