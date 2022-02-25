@@ -15,19 +15,17 @@
     "date": {
       "type": "date"
     },
-    "customer": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
-    },
     "services": {
       "type": "json"
     },
     "time": {
       "type": "string"
     },
+    "customer": {
+      "type": "integer"
+    },
     "staff": {
-      "type": "string"
+      "type": "integer"
     }
   }
 }
